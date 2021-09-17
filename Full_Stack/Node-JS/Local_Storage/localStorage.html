@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS-Local_Storage</title>
+  </head>
+  <body>
+    <script>
+      let firstname;
+      let firstname1;
+      let lastname;
+      let lastname1;
+
+      localStorage.setItem("firstname", "Shubham");
+      localStorage.setItem("lastname", "Kulkarni");
+      localStorage.setItem("firstname1", "Kamal");
+      localStorage.setItem("lastname1", "Singh");
+
+      firstname = localStorage.getItem("firstname");
+      lastname = localStorage.getItem("lastname");
+      firstname1 = localStorage.getItem("firstname1");
+      lastname1 = localStorage.getItem("lastname1");
+
+      document.write(firstname + " " + lastname + "<br />");
+      document.write(firstname1 + " " + lastname1);
+    </script>
+  </body>
+</html>

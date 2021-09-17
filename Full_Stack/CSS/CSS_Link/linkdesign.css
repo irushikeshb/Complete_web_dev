@@ -1,0 +1,45 @@
+html{
+    background-image: url(./news.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(8, 6, 0);
+    margin-left: 15%;
+}
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color:rgb(7, 5, 0);
+    margin-top: 10%;
+    padding-right: 20%;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    font-size: 20px;
+    color:rgb(252, 248, 34);
+    padding-top: 2%;
+    margin-left:7%;
+    margin-right:7%;
+}
+img{
+    float: left;
+}
+.img2{
+    float: right;
+}
+a{
+    color: red;
+}
+a:hover{
+    color: blue;
+}
+a:active{
+    color: red;
+}

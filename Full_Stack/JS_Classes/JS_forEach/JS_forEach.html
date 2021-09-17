@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>--JS_forEach-Example--</title>
+</head>
+<body>
+    <h2>forEach Example-1</h2>
+	<div id="demo">
+	   	
+	</div>
+    <h2>forEach Example-2</h2>
+	<div id="demo2">
+	   	
+	</div>
+
+    <script>
+        var fruits = ["Apple", "Mango", "Orange", "Water-melon"];
+        fruits.forEach(myFunction);
+        function myFunction(item, index)
+        {
+            document.getElementById("demo").innerHTML += item + "<br>";
+        }
+
+        var countries = ["India","America","Australia","Africa"];
+        countries.forEach(Function2);
+
+        function Function2(item,index)
+        {
+        	document.getElementById("demo2").innerHTML += item + "<br>";
+        }
+    </script>
+</body>
+</html>

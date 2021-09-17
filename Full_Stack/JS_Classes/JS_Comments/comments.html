@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>--Comments_Example--</title>
+</head>
+<style>
+    html{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: black;
+        color: white;
+    }
+    h1{
+        font-size: 40px;
+    }
+    #header{
+        font-size: 30px;
+        margin-top: 5rem;
+    }
+    h2{
+        font-size: 30px;
+    }
+    p{
+        font-size: 20px;
+        margin-left: 14rem;
+    }
+    #para{
+        padding-bottom: 4rem;
+    }
+</style>
+<body>
+    <center>
+        <h1>Comments in JavaScript</h1>
+    </center>
+    <!-- comments can be written either by giving "//" infront of the text -->
+    <!-- or by writting "/* ...content... */" -->
+
+    <h2 id="header"></h2>
+    <p id="para"></p>
+
+
+
+<script>
+    //ingle line comment property
+    document.write("<h2>Single line Comment(/* ..content..  */):</h2>");
+    document.write("<p>To create a single line comment in JavaScript, you place two slashes // in front of the code or text you wish to have the JavaScript interpreter ignore. When you place these two slashes, all text to the right of them will be ignored, until the next line.</p>");        
+    
+    /*
+    Below is the information for multiline comment
+    by using it we can comment out multiple lines
+    */
+    document.getElementById("header").innerHTML = "Multi-line Comment's(//....content):";
+    document.getElementById("para").innerHTML = "Multi-line comments start with /* and end with */.Any text between /* and */ will be ignored by JavaScript."
+</script>
+</body>
+</html>

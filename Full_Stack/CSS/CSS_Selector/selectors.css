@@ -1,0 +1,20 @@
+/* Below is element selector example */
+html{
+    background-color: blanchedalmond;
+}
+
+/* Below is the example of ID selector */
+h2{
+    color: tomato;
+    text-align: center;
+    font-size: 45px;
+}
+p{
+    font-size: 20px;
+}
+
+/* Below is the example of Class selector */
+#table{
+    list-style-type: 1;
+    padding-left: 22rem;
+}

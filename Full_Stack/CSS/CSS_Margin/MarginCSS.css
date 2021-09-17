@@ -1,0 +1,29 @@
+html{
+    background-color: #cdcdcd;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+.border{
+    margin-top: 50px;
+    border: 2px solid;
+}
+h1{
+    color: red;
+    margin-bottom: 100px;
+    font-size: 45px;
+    text-align: center;
+}
+p{
+    background: gold;
+}
+.p1{
+    background: gold;
+    margin: 25px;
+}
+.margin_left{
+    margin-left: 220px;
+}
+.p4{
+    border: 4px dashed blue;
+    margin: 100px 50px 10px 300px;
+}

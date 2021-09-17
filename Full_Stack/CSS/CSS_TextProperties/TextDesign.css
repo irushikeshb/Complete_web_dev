@@ -1,0 +1,40 @@
+body{
+    background-image: url(./background.jpg);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-attachment: fixed;
+}
+h1{
+    color: white;
+    text-align: center;
+    text-shadow: 4px 4px 2px black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+ul{
+    font-size: 25px;
+    color: rgb(177, 177, 235);
+    
+}
+.Para1{
+    color: yellow;
+    font-size: 20px;
+    text-transform: lowercase;
+    text-decoration: underline wavy blue;
+    text-align: left;
+}
+.Para2{
+    color: green;
+    font-size: 23px;
+    text-transform: capitalize;
+    text-decoration: none;
+    text-align: center;
+}
+.Para3{
+    color: skyblue;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: underline dashed yellow;
+    text-align: right;
+}

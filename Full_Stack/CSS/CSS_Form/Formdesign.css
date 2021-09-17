@@ -1,0 +1,51 @@
+body{
+    background-image: url(./bg5.jpg);
+    background-size: cover;
+}
+div.form1{
+        width: 350px;
+        margin: 150px auto 100px auto;
+        
+} 
+p{
+    color: white;
+} 
+h2{
+    color:aquamarine;
+    text-align: center;
+}  
+.form2{
+color: white;
+}
+.form3{
+    font-size: 13px;
+    color: aliceblue;
+}
+input[type=text] {
+    padding:5px; 
+    border:2px solid #ccc; 
+    border-radius: 5px;
+}
+input[type=email] {
+    padding:5px; 
+    border:2px solid #ccc; 
+    border-radius: 5px;
+}
+input[type=number] {
+    padding:5px; 
+    border:2px solid #ccc; 
+    border-radius: 5px;
+}
+
+input[type=text]:focus {
+    border-color:#333;
+}
+
+input[type=submit] {
+    padding:10px 20px; 
+    background:#ccc; 
+    border: none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}

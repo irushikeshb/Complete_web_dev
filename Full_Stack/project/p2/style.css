@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    background-image: url("https://cdn.hipwallpaper.com/i/9/5/MIFQ5N.jpg");
+    background-size: cover;
+}
+
+nav {
+    font-size: 20px;
+    background-color: transparent;
+    background-position: center;
+    padding: 10px;
+    color: lightseagreen;
+    opacity: 0.9;
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: 50;
+    text-align: center;
+    margin: 20px;
+    color: #fff;
+    font-style: italic;
+}
+
+.styling {
+    font-weight: 800;
+    color: lightseagreen;
+    font-style: normal;
+}
+
+.input_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.input_div .input {
+    padding: 10px;
+    height: 50px;
+    outline: none;
+    background-color: #fff;
+    width: 500px;
+    margin: 20px;
+    font-size: 20px;
+    border-radius: 25px;
+    border: none;
+}
+
+.addButton {
+    height: 50px;
+    width: 50px;
+    outline: none;
+    border-radius: 50px;
+    background-color: lightseagreen;
+    border: none;
+    font-size: 40px;
+    opacity: 5;
+    margin-left: 0px;
+    cursor: pointer;
+}
+
+.addButton:hover {
+    background-color: whitesmoke;
+    color: lightseagreen;
+    opacity: 0.7;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.item {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.item_input {
+    background: none;
+    outline: none;
+    color: #fff;
+    border: none;
+    width: 400px;
+    border-bottom: 2px solid white;
+    font-size: 25px;
+}
+
+.editButton {
+    height: 35px;
+    width: 70px;
+    outline: none;
+    border-radius: 25px;
+    background-color: lightseagreen;
+    border: none;
+    font-size: 17px;
+    font-weight: 150;
+    opacity: 5;
+    margin: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.editButton:hover {
+    background-color: whitesmoke;
+    color: lightseagreen;
+    opacity: 0.7;
+}
+
+.removeButton {
+    height: 36px;
+    width: 80px;
+    outline: none;
+    border-radius: 25px;
+    background-color: darkred;
+    border: none;
+    font-size: 17px;
+    font-weight: 150;
+    opacity: 5;
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+}
+
+.removeButton:hover {
+    background-color: whitesmoke;
+    color: darkred;
+    opacity: 0.7;
+}

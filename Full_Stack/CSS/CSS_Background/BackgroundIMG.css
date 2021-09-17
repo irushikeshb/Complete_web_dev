@@ -1,0 +1,23 @@
+html{
+    background-image: url(https://wallpapercave.com/wp/wp4814311.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}  
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}  
+h3{
+    font-size: 35px;
+    margin-left: 1%;
+    text-align: center;
+    color: white;
+    padding-bottom: 26rem;
+}
+p{
+    margin-left: 220px;
+    color: yellow;
+    text-align: center;
+    font-size: 25px;
+    font-style: Arial;
+    margin: 90px;
+}

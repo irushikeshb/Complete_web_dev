@@ -1,0 +1,26 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(./BG.png);
+}
+h3{
+    font-size: 35px;
+    color: white;
+}
+ul, li{
+    display: inline;
+    padding: 10px;
+    margin: 10px;
+    font-size: 25px;
+}
+p{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: azure;
+}
+li a {
+    text-decoration: none;
+    color: rgb(141, 177, 209);
+}
+li a:hover {
+    background-color: black;
+}

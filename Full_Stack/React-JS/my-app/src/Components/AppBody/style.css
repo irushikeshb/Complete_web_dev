@@ -1,0 +1,25 @@
+.div-body{
+    background: black;
+    color: white;
+    margin: 0 40px 40px 40px;
+}
+.name{
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 18px;
+    width: 80%;
+    text-align: center;
+    margin:  18px 0 10px 0;
+    padding: 10px;
+}
+.btn{
+    margin-top: 25px;
+    padding: 14px 30px;
+    border-radius: 25px;
+    font-size: 18px;
+}
+.name-1{
+    margin-top: 0px;
+    padding: 0;
+}

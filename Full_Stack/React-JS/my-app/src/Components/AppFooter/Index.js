@@ -1,7 +1,10 @@
 import React from "react";
+import './style.css'
 
 export default function AppFooter() {
   return(
-  <h3>Copyright @2021</h3>
+    <div class="footer">
+      <h3>Copyright @2021</h3>
+    </div>
   );
 }

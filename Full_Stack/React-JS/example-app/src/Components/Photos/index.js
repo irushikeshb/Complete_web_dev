@@ -1,7 +1,11 @@
-import React from "react";
+import React from 'react';
+import Navigation from '../Navigation';
 
 export default function Photos(){
     return(
-        <h1>Photos</h1>
+        <div>
+            <Navigation />
+            <h1>Photos</h1>
+        </div>
     )
 }

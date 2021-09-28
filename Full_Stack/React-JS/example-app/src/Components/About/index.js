@@ -1,7 +1,11 @@
-import React from "react";
+import React from 'react';
+import Navigation from '../Navigation';
 
 export default function About(){
     return(
-        <h1> About us </h1>
+        <div>
+            <Navigation />
+            <h1>About us</h1>
+        </div>
     )
 }

@@ -1,0 +1,20 @@
+
+.main-div{
+    background: black;
+    color: white;
+}
+.f-players{
+    font-size: 20px;
+    background: white;
+    display: flex;
+    justify-content: center;
+}
+.player-links{
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 700;
+    transition: .4s;
+}
+.player-links:hover{
+    color: black;
+}

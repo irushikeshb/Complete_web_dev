@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-div{
+    position: absolute;
+    left: 34%;
+    padding: 1.5rem;
+}
+.main-div h1{
+    text-align: center;
+    color: #00ccff;
+    margin: 15px;
+}
+.main-div .user-list{
+    padding: 10px 40px 10px 40px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.id{
+    margin: 10px;
+    padding: 10px 14px;
+    background: #0e1538;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 50px;
+}
+.button{
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    background: #0e1538;
+    margin-left: 2.5em;
+}
+.button:hover{
+    background: #d400d4;
+}

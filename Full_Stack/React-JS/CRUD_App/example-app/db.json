@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Rushi B"
+    },
+    {
+      "id": 2,
+      "name": "Swaraj S"
+    },
+    {
+      "id": 3,
+      "name": "Omkar S"
+    },
+    {
+      "id": 4,
+      "name": "Vasu K"
+    },
+    {
+      "id": 5,
+      "name": "Rutu B"
+    },
+    {
+      "id": 6,
+      "name": "Omkar B"
+    },
+    {
+      "name": "Yohan H",
+      "id": 9
+    },
+    {
+      "name": "Rushikesh Bhawar",
+      "id": 10
+    }
+  ]
+}

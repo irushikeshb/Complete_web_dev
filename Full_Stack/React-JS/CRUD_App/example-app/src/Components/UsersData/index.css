@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.add-user{
+    left: 41%;
+    position: absolute;
+}
+.add-user .user{
+    padding: 10px;
+    border-radius: 10px;
+}

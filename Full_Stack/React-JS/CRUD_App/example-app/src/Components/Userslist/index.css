@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.userslist{
+    position: absolute;
+    left: 37%;
+}
+.userslist h1{
+    text-align: center;
+    color: #00ccff;
+    margin: 15px;
+}
+.list-main{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
+.list-main .list-items{
+    list-style: none;
+    margin: 5px;
+    padding: 5px;
+    font-size: 16px;
+}
+.list-main .edit{
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    background: #d400d4;
+    margin-left: 2.5em;
+    border: 2px solid black;
+}
+.list-main .edit:hover{
+    background: #0e1538;
+
+}

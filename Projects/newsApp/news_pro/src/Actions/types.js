@@ -1,0 +1,4 @@
+export const HEADLINES = 'HEADLINES'
+export const BUSINESS_NEWS = 'BUSINESS_NEWS'
+export const TECHNOLOGY_NEWS = 'TECHNOLOGY_NEWS'
+export const SPORTS_NEWS = 'SPORTS_NEWS'
